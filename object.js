@@ -3,7 +3,7 @@ var ourDog = {
     "legs": 4,
    "tails": 1,
     "friends": ["everything!"]
- // };
+ };
   
   // Only change code below this line.
   
