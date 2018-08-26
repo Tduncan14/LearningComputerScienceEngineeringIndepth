@@ -10,7 +10,7 @@ var ourDog = {
   var myDog = {
 
    "name": "Treek",
-  //  "legs": 4,
+    "legs": 4,
     //"tails": 1,
     //"friends": ["Treek", "Kitty"]
  //g };
