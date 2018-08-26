@@ -7,7 +7,7 @@ var ourDog = {
   
   // Only change code below this line.
   
-  //var myDog = {
+  var myDog = {
   //  "name": "Treek",
   //  "legs": 4,
     //"tails": 1,
