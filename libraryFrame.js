@@ -20,4 +20,8 @@
     }
     // any object created by this funticon is pointed to the object to the greeter protype as its  prototype
     greeter.init.prototype = greeter.prototype;
+
+     //attaching it to the global and have an alias
+
+     global.greeter = global.G$ = greeter;
 })(window,jQuery);
