@@ -54,6 +54,7 @@
               }
   // 'this' refers to the calling object at execution time
   // makes the method chainable
+          return this;
 
          }
 
