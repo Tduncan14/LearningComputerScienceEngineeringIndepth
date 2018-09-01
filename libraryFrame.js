@@ -56,6 +56,11 @@
   // makes the method chainable
           return this;
 
+         },
+         log: function(){
+             if(console){
+                  console.log(logMessages[this.language]+', '+ this.fullName();
+             }
          }
 
     };
