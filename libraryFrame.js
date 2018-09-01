@@ -49,6 +49,9 @@
               else {
                   msg = this.greeting();
               }
+              if(console) {
+                  console.log(msg);
+              }
 
 
          }
