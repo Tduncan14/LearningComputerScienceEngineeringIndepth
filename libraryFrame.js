@@ -12,6 +12,10 @@
        es:'Hola'
    }
 
+   formalGreetings = {
+       en:'Greetings',
+       en: 'Saludos'
+   }
     // creating a  can add your methods in the empty object below
     greeter.prototype ={};
     greeter.init = function(firstName,lastName,language){
