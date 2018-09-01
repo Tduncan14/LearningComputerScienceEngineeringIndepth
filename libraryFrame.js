@@ -59,11 +59,15 @@
          },
          log: function(){
              if(console){
-                  console.log(logMessages[this.language]+', '+ this.fullName();
+                  console.log(logMessages[this.language]+', '+ this.fullName());
              }
               return this;
-         }
-
+         },
+         setLang : function(lang){
+             this.language = lang;
+             this.validate();
+             return this
+         },
     };
     greeter.init = function(firstName,lastName,language){
         // setting up some default properties.
