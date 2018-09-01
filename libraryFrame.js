@@ -35,7 +35,9 @@
                  throw "Invalid language";
              }
          },
-
+         greeting: function(){
+             return greetings[this.language]
+         }
     };
     greeter.init = function(firstName,lastName,language){
         // setting up some default properties.
