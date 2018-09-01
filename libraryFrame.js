@@ -5,6 +5,7 @@
     var greeter = function(firstName,lastName,language){
        return new greeter.init(firstName,lastName,language);    
     }
+   var supportedLangs =['en', 'es'];
 
     // creating a  can add your methods in the empty object below
     greeter.prototype ={};
