@@ -61,6 +61,7 @@
              if(console){
                   console.log(logMessages[this.language]+', '+ this.fullName();
              }
+              return this;
          }
 
     };
