@@ -6,7 +6,7 @@
        return new greeter.init(firstName,lastName,language);    
     }
 
-    // creating a protoType
+    // creating a  can add your methods in the empty object below
     greeter.prototype ={};
     greeter.init = function(firstName,lastName,language){
         // setting up some default properties.
