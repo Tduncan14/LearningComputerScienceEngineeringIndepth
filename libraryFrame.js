@@ -52,7 +52,8 @@
               if(console) {
                   console.log(msg);
               }
-
+  // 'this' refers to the calling object at execution time
+  // makes the method chainable
 
          }
 
