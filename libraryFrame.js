@@ -36,7 +36,7 @@
              }
          },
          greeting: function(){
-             return greetings[this.language]
+             return greetings[this.language] + ' ' + this.firstName +'!';
          }
     };
     greeter.init = function(firstName,lastName,language){
