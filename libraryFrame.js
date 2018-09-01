@@ -24,7 +24,11 @@
        es: 'Inicio sesion'
    };
     // creating a  can add your methods in the empty object below
-    greeter.prototype ={};
+    greeter.prototype ={
+        fullName: function(){
+            return this.firstName + ' ' + this.lastName;
+        }
+    };
     greeter.init = function(firstName,lastName,language){
         // setting up some default properties.
         // it is either language that is true / ir
