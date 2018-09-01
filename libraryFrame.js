@@ -16,6 +16,13 @@
        en:'Greetings',
        en: 'Saludos'
    };
+
+   // want to log it to the console/
+
+   var logMesssages = {
+       en: 'Logged in',
+       es: 'Inicio sesion'
+   };
     // creating a  can add your methods in the empty object below
     greeter.prototype ={};
     greeter.init = function(firstName,lastName,language){
