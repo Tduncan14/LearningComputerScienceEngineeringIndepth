@@ -38,7 +38,20 @@
          greeting: function(){
              return greetings[this.language] + ' ' + this.firstName +'!';
          },
-         formalGreeting:function(){[this.langauage] + ', '+ this.fullName();}
+         formalGreeting:function(){[this.langauage] + ', '+ this.fullName();},
+
+         greet: function(formal) {
+              var msg;
+              // if undefined or null it will be coerced to 'false'
+              if(formal){
+                  msg = this.formalGreeting();
+              }
+              else {
+                  msg = this.greeting();
+              }
+
+
+         }
 
     };
     greeter.init = function(firstName,lastName,language){
