@@ -27,7 +27,13 @@
     greeter.prototype ={
         fullName: function(){
             return this.firstName + ' ' + this.lastName;
-        }
+        },
+         // valid that a language is supported
+         validate: function(){
+             supportedLangs.indexOf(this.language) === -1{
+                 throw "Invalid Language"
+             }
+         }
     };
     greeter.init = function(firstName,lastName,language){
         // setting up some default properties.
