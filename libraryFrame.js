@@ -69,6 +69,8 @@
              return this
          },
     };
+    // end of the object litaray
+    
     greeter.init = function(firstName,lastName,language){
         // setting up some default properties.
         // it is either language that is true / ir
